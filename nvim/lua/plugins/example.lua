@@ -40,6 +40,19 @@ return {
     end,
   },
 
+  -- override nvim-cmp and add codei,
+  -- {
+  --   "hrsh7th/nvim-cmp",
+  --   dependencies = { "Exafunction/codeium.nvim" },
+  --   ---@param opts cmp.ConfigSchema
+  --   opts = function(_, opts)
+  --     table.insert(opts.sources, 1, {
+  --       name = "codeium",
+  --       group_index = 1,
+  --       priority = 100,
+  --     })
+  --   end,
+  -- },
   -- change some telescope options and a keymap to browse plugin files
   {
     "nvim-telescope/telescope.nvim",
