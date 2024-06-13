@@ -21,4 +21,5 @@ vim.opt.cmdheight = 0
 vim.opt.expandtab = true
 vim.opt.ignorecase = true
 vim.opt.wrap = false
-vim.opt.shiftwidth = 2
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4

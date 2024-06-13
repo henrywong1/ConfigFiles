@@ -19,5 +19,3 @@ keymap.set("n", "sv", ":vsplit<Return>", opts)
 keymap.set("n", "<C-e>", function()
   vim.diagnostic.goto_next()
 end, opts)
-
---VIM SETTINGS
