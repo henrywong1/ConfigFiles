@@ -9,8 +9,7 @@ return {
         transparent_background = true,
         integrations = {
           telescope = true,
-            cmp = true,
-            snacks = true
+          neotree = true,
         },
       })
     end,

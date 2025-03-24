@@ -1,13 +1,11 @@
 return {
   "christoomey/vim-tmux-navigator",
-  event = "VeryLazy",
   cmd = {
     "TmuxNavigateLeft",
     "TmuxNavigateDown",
     "TmuxNavigateUp",
     "TmuxNavigateRight",
     "TmuxNavigatePrevious",
-    "TmuxNavigatorProcessList",
   },
   keys = {
     { "<c-h>", "<cmd><C-U>TmuxNavigateLeft<cr>" },
